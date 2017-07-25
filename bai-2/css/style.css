@@ -15,17 +15,3 @@ img {
 max-width: 100%;
 max-height: 300px;
 }
-.box{
-	border: 1px solid #dddddd;
-	border-top-width:5px;
-}
-.info {
-	border-color: #76a7fa;
-
-}
-.contact {
-	border-color: #f9b256;
-}
-.company {
-	border-color: #4dbfd9;
-}
