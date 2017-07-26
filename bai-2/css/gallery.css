@@ -1,6 +1,10 @@
+#main-menu a{
+	text-align: center;
+	padding: 0 50px;
+}
 .box{
 	
-	width: 33%;
+	width: 33.3333333%;
 	float: left;
 	border: 1px solid #dddddd;
 	border-top-width:5px;
@@ -9,3 +13,4 @@
 	max-width: 1000px;
 	margin:auto;
 }
+
