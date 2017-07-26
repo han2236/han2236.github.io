@@ -1,0 +1,11 @@
+.box{
+	
+	width: 33%;
+	float: left;
+	border: 1px solid #dddddd;
+	border-top-width:5px;
+
+.wrap1 {
+	max-width: 1000px;
+	margin:auto;
+}
