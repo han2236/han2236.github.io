@@ -10,7 +10,8 @@ body{
 h1{
 	font-size:24px;}
 #main-menu {
-	position: absolute;
+	width:25%;
+	float:left;
 	display: block;
 	margin:auto;
 	padding:0 40px;

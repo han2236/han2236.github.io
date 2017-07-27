@@ -1,4 +1,12 @@
 
+#main-content{
+	width:75%;
+	float:left;
+}
+#main-content img{
+	padding:5%;
+}
+
 .box{
 	width: 33.3333333%;
 	float: left;
@@ -9,4 +17,14 @@
 	max-width: 1000px;
 	margin:auto;
 }
-
+#top{
+	position:fixed;
+	width: 245px;
+	height: 245px;
+	bottom:30px;
+	right: 30px;
+}
+#top img{
+	width:245px;
+	height:245px;
+}
