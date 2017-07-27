@@ -12,6 +12,7 @@
 	float: left;
 	border: 1px solid #dddddd;
 	border-top-width:5px;
+	text-align: center;
 
 .wrap1 {
 	max-width: 1000px;
@@ -25,9 +26,9 @@
 	right: 30px;
 }
 #top img{
-	position:fixed;
-	bottom: 30px;
-	right:30px;
-	width:245px;
-	height:245px;
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
 }
