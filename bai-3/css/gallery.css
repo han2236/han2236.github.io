@@ -18,13 +18,7 @@
 	max-width: 1000px;
 	margin:auto;
 }
-#top{
-	position:fixed;
-	width: 245px;
-	height: 245px;
-	bottom:30px;
-	right: 30px;
-}
+
 #top img{
 	position: fixed;
     bottom: 30px;
