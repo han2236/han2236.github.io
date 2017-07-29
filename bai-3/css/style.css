@@ -14,7 +14,7 @@ h1{
 	float:left;
 	display: block;
 	margin:auto;
-	padding:0 40px;
+	padding:0 30px;
 }
 #main-menu li a{
 	display:block;
@@ -44,6 +44,10 @@ ul {
 #main-content img{
 	width: 300px;
 	height: 200px;
+	opacity:1;
+}
+.resort:hover img{
+	opacity:0.5;
 }
 img {
 max-height: 300px;
