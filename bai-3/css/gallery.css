@@ -9,9 +9,10 @@
 }
 
 .box{
-	width: 33.3333333%;
+	width: 230px;
+	height:auto;
 	float: left;
-
+	margin: 5px 10px;
 	border: 1px solid #dddddd;
 	border-top-width:5px;
 	text-align: center;
@@ -20,7 +21,9 @@
 	color: #737373;
 	text-decoration: none;
 }
-
+.box:hover{
+	opacity:0.5;
+}
 .wrap1 {
 	max-width: 1000px;
 	margin:auto;

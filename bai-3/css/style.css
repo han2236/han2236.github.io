@@ -42,12 +42,8 @@ ul {
 	width: 100%;
 }
 #main-content img{
-	width: 300px;
-	height: 200px;
 	opacity:1;
-}
-.resort:hover img{
-	opacity:0.5;
+	transition: opacity 0.5s linear;
 }
 img {
 max-height: 300px;
