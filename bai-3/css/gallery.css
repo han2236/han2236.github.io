@@ -23,6 +23,7 @@
 }
 .box:hover{
 	opacity:0.5;
+	transition: opacity 0.5s linear;
 }
 .wrap1 {
 	max-width: 1000px;
