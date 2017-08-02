@@ -30,8 +30,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-
 #main-menu a:hover, #main-menu a.active{
 	color:black;
 }
@@ -40,10 +38,6 @@ ul {
 }
 #banner img{
 	width: 100%;
-}
-#main-content img{
-	opacity:1;
-	transition: opacity 0.5s linear;
 }
 img {
 max-height: 300px;
