@@ -7,7 +7,10 @@
 	padding:5px;
 	width:100%;
 }
-
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
 .box{
 	width: 230px;
 	height:auto;
@@ -16,6 +19,7 @@
 	border: 1px solid #dddddd;
 	border-top-width:5px;
 	text-align: center;
+	animation: fadeinout 20s infinite;
 	}
 .box a{
 	color: #737373;
@@ -34,24 +38,13 @@
     width: 60px;
     height: 60px;
 }
+@keyframes moveout {
+	from {left:0px;}
+	from{left:400px;
+}
+h2 {
+animation: moveout 20s infinite;
+animation:fadeinout 20s;
+}
 
-.thumb1 img{
-	padding:4px;
-	transition: all 0.5s linear;
-}
-.thumb2 {
-	overflow:hidden;
-}
-.thumb2 img{
-	padding:4px;
-	transition: all 0.5 linear;
-}
-.thumb1:hover img{
-	transform:translate(0,-5px);
-	box-shadow: 0px 5px 5px 0px rgba(0,0,0,2);
-}
-.thumb2:hover img{
-	transform:scale(1.2);
-	opacity:0.5;
 
-}
