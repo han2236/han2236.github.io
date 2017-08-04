@@ -38,13 +38,27 @@
     width: 60px;
     height: 60px;
 }
-@keyframes moveout {
-	from {left:0px;}
-	from{left:400px;
-}
-h2 {
-animation: moveout 20s infinite;
-animation:fadeinout 20s;
-}
 
+@keyframes fadeText {
+			0% {
+				opacity: 0;
+				transform: translate(100vw, 0);
+			}
+			25% {
+				opacity: 1;
+				transform: translate(0, 0);
+			}
+			75% {
+				opacity: 1;
+				transform: translate(0, 0);
+			}
+			100% {
+				opacity: 0;
+				transform: translate(-100vw, 0);
+			}
+		}
+h2 {
+			text-align: right;
+			animation: fadeText 10s ease infinite;
+		}
 
