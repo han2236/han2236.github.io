@@ -1,0 +1,42 @@
+
+.wrap{
+	max-width:1000px;
+	margin:auto;
+}
+
+body{
+	background-color: #EFEFEF;
+}
+img{max-width: 100%}
+ul{
+	list-style-type: none;
+}
+#main-menu1 a{
+	font-size: 20px;
+	color: #737373;
+	text-decoration: none;}
+#main-menu2 a{
+	font-size: 20px;
+	color: #737373;
+	text-decoration: none;}
+
+#main-menu1 {
+	width: 25%;
+	float:left;
+}
+#main-menu2{
+	width:25%;
+	float:right;
+}
+li{display: inline;
+padding: 10px;}
+#text-banner{
+	position: absolute;
+	left:10%;
+	top:25%;
+}
+
+#city,#box1,#box2 img{
+	padding=15px;
+}
+
