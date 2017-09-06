@@ -64,10 +64,14 @@ padding: 10px;}
 #box1 img{
 	padding: 8px;
 }
-#travel{
+.travel{
 	clear:both;
 }
-#travel,#host,#trust{
+.box{
 	float:left;
+	width:33,33%;
 }
-
+.box a{
+	color: cyan;
+	text-decoration: none;
+}
