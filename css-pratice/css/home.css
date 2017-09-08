@@ -50,26 +50,32 @@ ul{
 }
 li{display: inline;
 padding: 10px;}
-
+#city{
+	padding-left:15px;
+	background-color:#EFEFEF; 
+}
 
 #box1,#box2,#box3 {
-	width: 30%;
+	width: 32%;
 	padding: 5px;
+	padding-left:10px;
 	float: left;
 	text-align: center;
 }
 #box2 img{
-	padding: 8px;
+	padding: 10px;
 }
 #box1 img{
-	padding: 8px;
+	padding: 10px;
 }
 .travel{
 	clear:both;
 }
 .box{
 	float:left;
-	width:33,33%;
+	width:30%;
+	padding-left: 15px;
+	text-align: left;
 }
 .box a{
 	color: cyan;
